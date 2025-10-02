@@ -1,0 +1,14 @@
+/Users/douglascobiank/Paschoalotto/src/Desafio.Infrastructure/obj/Debug/net9.0/Desafio.Infrastructure.csproj.AssemblyReference.cache
+/Users/douglascobiank/Paschoalotto/src/Desafio.Infrastructure/obj/Debug/net9.0/Desafio.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+/Users/douglascobiank/Paschoalotto/src/Desafio.Infrastructure/obj/Debug/net9.0/Desafio.Infrastructure.AssemblyInfoInputs.cache
+/Users/douglascobiank/Paschoalotto/src/Desafio.Infrastructure/obj/Debug/net9.0/Desafio.Infrastructure.AssemblyInfo.cs
+/Users/douglascobiank/Paschoalotto/src/Desafio.Infrastructure/obj/Debug/net9.0/Desafio.Infrastructure.csproj.CoreCompileInputs.cache
+/Users/douglascobiank/Paschoalotto/src/Desafio.Infrastructure/bin/Debug/net9.0/Desafio.Infrastructure.deps.json
+/Users/douglascobiank/Paschoalotto/src/Desafio.Infrastructure/bin/Debug/net9.0/Desafio.Infrastructure.runtimeconfig.json
+/Users/douglascobiank/Paschoalotto/src/Desafio.Infrastructure/bin/Debug/net9.0/Desafio.Infrastructure.dll
+/Users/douglascobiank/Paschoalotto/src/Desafio.Infrastructure/bin/Debug/net9.0/Desafio.Infrastructure.pdb
+/Users/douglascobiank/Paschoalotto/src/Desafio.Infrastructure/obj/Debug/net9.0/Desafio.Infrastructure.dll
+/Users/douglascobiank/Paschoalotto/src/Desafio.Infrastructure/obj/Debug/net9.0/refint/Desafio.Infrastructure.dll
+/Users/douglascobiank/Paschoalotto/src/Desafio.Infrastructure/obj/Debug/net9.0/Desafio.Infrastructure.pdb
+/Users/douglascobiank/Paschoalotto/src/Desafio.Infrastructure/obj/Debug/net9.0/Desafio.Infrastructure.genruntimeconfig.cache
+/Users/douglascobiank/Paschoalotto/src/Desafio.Infrastructure/obj/Debug/net9.0/ref/Desafio.Infrastructure.dll

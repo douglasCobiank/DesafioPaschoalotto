@@ -1,0 +1,30 @@
+version: '3.9'
+
+services:
+  api:
+    build:
+      context: .
+      dockerfile: Desafio.API/Dockerfile
+    container_name: desafio_api
+    ports:
+      - "5000:8080"
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development
+      - ConnectionStrings__DefaultConnection=Host=db;Database=desafiodb;Username=postgres;Password=dgs091194;KeepAlive=30
+    depends_on:
+      - db
+
+  db:
+    image: postgres:15
+    container_name: desafio_db
+    environment:
+      POSTGRES_DB: desafiodb
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: dgs091194
+    ports:
+      - "5432:5432"
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+
+volumes:
+  pgdata:
