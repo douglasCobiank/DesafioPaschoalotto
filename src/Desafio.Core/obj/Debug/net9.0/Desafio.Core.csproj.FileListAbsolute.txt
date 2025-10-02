@@ -13,3 +13,4 @@
 /Users/douglascobiank/Paschoalotto/src/Desafio.Core/obj/Debug/net9.0/refint/Desafio.Core.dll
 /Users/douglascobiank/Paschoalotto/src/Desafio.Core/obj/Debug/net9.0/Desafio.Core.pdb
 /Users/douglascobiank/Paschoalotto/src/Desafio.Core/obj/Debug/net9.0/ref/Desafio.Core.dll
+/Users/douglascobiank/Paschoalotto/src/Desafio.Core/obj/Debug/net9.0/Desafio.Core.sourcelink.json

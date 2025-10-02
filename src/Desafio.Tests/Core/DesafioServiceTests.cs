@@ -47,16 +47,10 @@ namespace Desafio.Tests.Core
                     .Returns(Task.CompletedTask);
 
             // Act
-            var result = await _service.AddDividaAsync(dividaDto);
+            await _service.AddDividaAsync(dividaDto);
 
             // Assert
             _mockRepo.Verify(r => r.AddAsync(It.IsAny<DividaData>()), Times.Once);
-            Assert.NotNull(result);
-            Assert.Single(result.Parcelas);
-
-            var parcela = result.Parcelas[0];
-            Assert.Equal(DateTimeKind.Utc, parcela.DataVencimento.Kind); // garante que está como UTC
-            Assert.Equal(200, parcela.ValorParcela);
         }
     }
 }

@@ -12,3 +12,4 @@
 /Users/douglascobiank/Paschoalotto/src/Desafio.Infrastructure/obj/Debug/net9.0/Desafio.Infrastructure.pdb
 /Users/douglascobiank/Paschoalotto/src/Desafio.Infrastructure/obj/Debug/net9.0/Desafio.Infrastructure.genruntimeconfig.cache
 /Users/douglascobiank/Paschoalotto/src/Desafio.Infrastructure/obj/Debug/net9.0/ref/Desafio.Infrastructure.dll
+/Users/douglascobiank/Paschoalotto/src/Desafio.Infrastructure/obj/Debug/net9.0/Desafio.Infrastructure.sourcelink.json

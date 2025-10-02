@@ -13,7 +13,6 @@ namespace Desafio.Infrastructure.Data
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
-            // garante explicitamente a PK (útil se o nome for diferente)
             modelBuilder.Entity<DividaData>(entity =>
             {
                 entity.HasKey(c => c.Id);
