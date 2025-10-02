@@ -21,7 +21,7 @@ namespace Desafio.API
             {
                 c.SwaggerDoc("v1", new OpenApiInfo
                 {
-                    Title = "Desafio API",
+                    Title = "Desafio Paschoalotto",
                     Version = "v1",
                     Description = "Desafio Paschoalotto"
                 });
@@ -39,12 +39,11 @@ namespace Desafio.API
 
             services.AddCors(options =>
             {
-                options.AddPolicy("AllowAngular",
+                options.AddPolicy("AllowAll",
                     policy => policy
-                        .WithOrigins("http://localhost:4200")
+                        .AllowAnyOrigin()
                         .AllowAnyMethod()
-                        .AllowAnyHeader()
-                        .AllowCredentials());
+                        .AllowAnyHeader());
             });
         }
 
@@ -62,7 +61,7 @@ namespace Desafio.API
 
             app.UseRouting();
 
-            app.UseCors("AllowAngular");
+            app.UseCors("AllowAll");
 
             app.UseAuthorization();
 

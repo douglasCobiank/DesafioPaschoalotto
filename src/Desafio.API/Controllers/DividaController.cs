@@ -7,7 +7,7 @@ using Microsoft.AspNetCore.Mvc;
 namespace Desafio.API.Controllers
 {
     [ApiController]
-    [Route("api/[controller]")]
+    [Route("api/divida")]
     public class DesafioController(IDesafioHandler desafioHandler, IMapper mapper) : ControllerBase
     {
         private readonly IDesafioHandler _desafioHandler = desafioHandler;
